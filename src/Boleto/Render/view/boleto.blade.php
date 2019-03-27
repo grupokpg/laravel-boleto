@@ -35,19 +35,7 @@
 
         <div class="linha-pontilhada" style="margin-bottom: 20px;">Recibo do pagador</div>
 
-        <div class="info-empresa">
-            @if ($logo)
-                <div style="display: inline-block;">
-                    <img alt="logo" src="{{ $logo_base64 }}"/>
-                </div>
-            @endif
-            <div style="display: inline-block; vertical-align: super;">
-                <div><strong>{{ $beneficiario['nome'] }}</strong></div>
-                <div>{{ $beneficiario['documento'] }}</div>
-                <div>{{ $beneficiario['endereco'] }}</div>
-                <div>{{ $beneficiario['endereco2'] }}</div>
-            </div>
-        </div>
+        
         <br>
 
         <table class="table-boleto" cellpadding="0" cellspacing="0" border="0">
